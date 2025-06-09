@@ -1,5 +1,4 @@
 import reactImg from './assets/react-core-concepts.png';
-//import componentsImg from './assets/components.png';
 import { CORE_CONCEPTS } from './data.js';
 
 const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
@@ -47,7 +46,6 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
-        
       </main>
     </div>
   );
